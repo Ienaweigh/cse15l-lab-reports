@@ -12,6 +12,20 @@
 * Install [Git](https://gitforwindows.org/)
 * Open VS Code
 * Click on the arrow by the plus on the bottom of the plus sign on the bottom of the page as seen below
-* 
+![VScode Bash](VScodeBash.png)
+* You are now using Bash
+
+
+**Step 3: Getting Your ieng6 ID-**
+* Go [here](https://sdacs.ucsd.edu/~icc/index.php)
+* Login with your UCSD account if you have everything remembered, if not, follow the other instructions on the page
+* Your ID should be under additional accounts, starting with "CSE15l"
+![VScode Bash](
+
+**
+
+
+
+
 [Back](https://ienaweigh.github.io/cse15l-lab-reports/)
 
