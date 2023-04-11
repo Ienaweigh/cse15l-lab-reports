@@ -29,8 +29,7 @@
 * Run some commands
 * ex: cd (change directory), ls (list files/folders in path), etc.
 * use pwd anytime to check the current directory
-
-**
+![Terminal]()
 
 
 
