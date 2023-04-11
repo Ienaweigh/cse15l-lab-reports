@@ -20,7 +20,15 @@
 * Go [here](https://sdacs.ucsd.edu/~icc/index.php)
 * Login with your UCSD account if you have everything remembered, if not, follow the other instructions on the page
 * Your ID should be under additional accounts, starting with "CSE15l"
-![VScode Bash](
+![VScode Bash](AccountName.png)
+* Reset password if needed
+
+**Step 4: Commands -**
+* In a new terminal type $ ssh [YOUR CSE15l]@ieng6.ucsd.edu
+* Then, type in your password. If the terminal asks for anything say yes.
+* Run some commands
+* ex: cd (change directory), ls (list files/folders in path), etc.
+* use pwd anytime to check the current directory
 
 **
 
