@@ -6,4 +6,4 @@
 2. Once you click on the link follow the instructions
 3. Once you have done that, open visual studio (It should something like below)
 
-[Back](https://ienaweigh.github.io/cse15l-lab-reports)
+[Back](https://ienaweigh.github.io/cse15l-lab-reports/)
