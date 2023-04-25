@@ -2,8 +2,8 @@
 Handle request is called. It takes in the url as an input. GetPath and contains are both called whenc checking for the path.
 Split is used when seperating the string from the rest of the url. The url is a useful value
 as well as the ArrayList of values that holds all the words.
-![sc2](Screenshot 2023-04-24 21421133333)
-![sc3](labreport2-running)
+![sc2](333img.png)
+![sc3](labreport2-running.png)
 
 #Part 2
 One bugged method is the testReverseInPlace method. One input which does not produce any symptoms
