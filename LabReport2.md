@@ -10,6 +10,7 @@ as well as the ArrayList of values that holds all the words.
 One bugged method is the testReverseInPlace method. One input which does not produce any symptoms
 would be a single number since no matter how you manipulate the order of a single number, the same. For example `{ 3 }` would cause no symptoms.
 number will appear. One input that would cause symptoms would be something like {1, 2, 3, 4, 5}. 
+![symptom](1.4)
 
 #Part 3
 I learned how to locally host webservers using Java. I also learned how changing directory could be important
