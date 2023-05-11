@@ -2,9 +2,9 @@
 Handle request is called. It takes in the url as an input. GetPath and contains are both called whenc checking for the path.
 Split is used when seperating the string from the rest of the url. The url is a useful value
 as well as the string value that is updated everytime a message is added.
-![sc2](LabReport2-1)
-![sc3](LabReport2-2)
-![sc4](LabReport2-3)
+![sc2](LabReport2-1.png)
+![sc3](LabReport2-2.png)
+![sc4](LabReport2-3.png)
 
 # Part 2
 One bugged method is the testReverseInPlace method. One input which does not produce any symptoms
