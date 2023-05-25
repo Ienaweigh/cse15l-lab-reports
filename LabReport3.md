@@ -2,32 +2,32 @@
 ![whereIAT](whereIAT.png)
 
 # -name
-This matches your next search with any file that has the same name as your search. This is useful when looking for a specific file.
-## `find -name chapter-10.txt`
+#### This matches your next search with any file that has the same name as your search. This is useful when looking for a specific file.
+### `find -name chapter-10.txt`
 ./stringsearch-data/technical/911report/chapter-10.txt
 ![first](firstReal.png)
-## `find -name chapter-9.txt`
+### `find -name chapter-9.txt`
 ./stringsearch-data/technical/911report/chapter-9.tx
 ![second](secondReal.png)
 
 
 # -empty
-This searches for empty files and directories. This is useful when looking for files that are empty.
-## `find -empty`
+#### This searches for empty files and directories. This is useful when looking for files that are empty.
+### `find -empty`
 ./.git/objects/info
 ./.git/refs/tags
 ./find-results.txt
 ./grep-results.txt
 ![third](thirdReal.png)
-## `find -empty -type f`
+### `find -empty -type f`
 ./find-results.txt
 ./grep-results.txt
 ![fourth](fourthReal.png)
 
 
 # -type
-This searches for things of the type specified. As seen below, d an f are used. d specifies directories. f specifies files. This is useful for when you only want to search for certain types of things.
-## `find -type d`
+#### This searches for things of the type specified. As seen below, d an f are used. d specifies directories. f specifies files. This is useful for when you only want to search for certain types of things.
+### `find -type d`
 .
 ./.git
 ./.git/hooks
@@ -63,7 +63,7 @@ This searches for things of the type specified. As seen below, d an f are used. 
 ./technical/government/Post_Rate_Comm
 ./technical/plos
 ![fifth](realFifth.png)
-## `find -type f -name chapter*`
+### `find -type f -name chapter*`
 ./technical/911report/chapter-1.txt
 ./technical/911report/chapter-10.txt
 ./technical/911report/chapter-11.txt
@@ -83,14 +83,14 @@ This searches for things of the type specified. As seen below, d an f are used. 
 ![sixth](sixthReal.png)
 
 # -size
-This gives you an output of the files that have the amount of blocks specified in the argument. In my examples I search for files of size 100 blocks and of size 10 blocks. This is useful when maybe there you want to get rid of things of a certain size.
-## `find technical -size 100`
+#### This gives you an output of the files that have the amount of blocks specified in the argument. In my examples I search for files of size 100 blocks and of size 10 blocks. This is useful when maybe there you want to get rid of things of a certain size.
+### `find technical -size 100`
 technical/biomed/1471-2156-3-17.txt
 technical/biomed/1472-684X-1-5.txt
 technical/biomed/gb-2001-2-8-research0030.txt
 technical/biomed/gb-2002-3-5-research0025.txt      
 technical/government/Gen_Account_Office/Paper_Walker11-2002_acpro122.txt![seventhReal](seventhReal.png)
-## `find technical -size 10`
+### `find technical -size 10`
 technical/government/Media/Annual_Fee.txt
 technical/government/Media/Barnes_new_job.txt
 technical/government/Media/Library_Lawyers.txt     
