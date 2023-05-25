@@ -5,9 +5,12 @@
 #### This matches your next search with any file that has the same name as your search. This is useful when looking for a specific file.
 ### `find -name chapter-10.txt`
 ./stringsearch-data/technical/911report/chapter-10.txt
+
 ![first](firstReal.png)
+
 ### `find -name chapter-9.txt`
 ./stringsearch-data/technical/911report/chapter-9.tx
+
 ![second](secondReal.png)
 
 
@@ -18,10 +21,13 @@
 ./.git/refs/tags
 ./find-results.txt
 ./grep-results.txt
+
 ![third](thirdReal.png)
+
 ### `find -empty -type f`
 ./find-results.txt
 ./grep-results.txt
+
 ![fourth](fourthReal.png)
 
 
@@ -62,7 +68,9 @@
 ./technical/government/Media
 ./technical/government/Post_Rate_Comm
 ./technical/plos
+
 ![fifth](realFifth.png)
+
 ### `find -type f -name chapter*`
 ./technical/911report/chapter-1.txt
 ./technical/911report/chapter-10.txt
@@ -80,6 +88,7 @@
 ./technical/911report/chapter-7.txt
 ./technical/911report/chapter-8.txt
 ./technical/911report/chapter-9.txt
+
 ![sixth](sixthReal.png)
 
 # -size
@@ -89,7 +98,10 @@ technical/biomed/1471-2156-3-17.txt
 technical/biomed/1472-684X-1-5.txt
 technical/biomed/gb-2001-2-8-research0030.txt
 technical/biomed/gb-2002-3-5-research0025.txt      
-technical/government/Gen_Account_Office/Paper_Walker11-2002_acpro122.txt![seventhReal](seventhReal.png)
+technical/government/Gen_Account_Office/Paper_Walker11-2002_acpro122.txt
+
+![seventhReal](seventhReal.png)
+
 ### `find technical -size 10`
 technical/government/Media/Annual_Fee.txt
 technical/government/Media/Barnes_new_job.txt
@@ -103,6 +115,7 @@ technical/plos/pmed.0020235.txt
 technical/plos/pmed.0020236.txt
 technical/plos/pmed.0020239.txt
 technical/plos/pmed.0020257.txt
+
 ![eighth](eigthReal.png)
 
 
