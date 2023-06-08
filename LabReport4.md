@@ -14,15 +14,16 @@
   
 # Step 6
   ![image](Step6redo.png)
+  
 `<bash test.sh> <enter>`
-this runs the bash script "test.sh" which compiles and runs the ListExamplesTests.java among other things, showing what tests pass and which fail.
+this runs the bash script "test.sh" which compiles and runs the ListExamplesTests.java file among other things, showing what tests pass and which fail.
   
 # Step 7
   ![image](step7-2.png)
   
 
 `<:44> <enter> <:s/index1/index2> <enter>`
-  `:44` goes to line 44. `:s/index1/index2` replaces index1 with index2 on that line.
+  `:44` goes to line 44. `:s/index1/index2` replaces `index1` with `index2` on that line.
   
   (to get here I changed my directory to go into lab7 by doing `<cd lab7> <enter>` and using `<vim ListExamples.java> <enter>` to edit the file using vim)
  
@@ -34,6 +35,7 @@ this again runs "test.sh" which again compiles and runs the ListExamplesTests.ja
   
 # Step 9
   ![image](step9redo.png)
+  ![image](step9-2.png)
 
 `<git add ListExamples.java> <enter>` (this adds ListExamples.java to the files I want to commit next) 
 
